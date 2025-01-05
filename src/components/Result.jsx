@@ -70,7 +70,7 @@ function Result(props) {
 			try {
 				//http://127.0.0.1:5000/
 				// const response = await fetch("https://mini-backend-1.onrender.com/", {
-				const response = await fetch("https://mini-backend-1.onrender.com/", {
+				const response = await fetch("https://mini-backend-main.onrender.com", {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json",
